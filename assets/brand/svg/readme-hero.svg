@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  slipcaster README hero banner
+  © 2026 Zach Loafman
+
+  Composed from assets/brand/svg/icon.svg + IBM Plex Sans Medium
+  (subset to the chars used here, embedded as base64 so GitHub renders
+  the wordmark in-brand without the viewer needing the font installed).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="slipcaster — plaster from polygons">
+  <defs>
+    <style>
+      @font-face {
+        font-family: "IBM Plex Sans";
+        font-weight: 500;
+        font-style: normal;
+        src: url(data:font/ttf;base64,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) format("truetype");
+      }
+    </style>
+  </defs>
+
+  <!-- background — matches the in-app top-bar ICON_BG -->
+  <rect width="1280" height="320" fill="#040610"/>
+
+  <!-- icon: scaled from 240×240 → 220×220, positioned at left -->
+  <g transform="translate(50, 50) scale(0.9166666)">
+    <defs>
+    <clipPath id="icn-seal"><circle cx="120" cy="120" r="106"/></clipPath>
+    <clipPath id="icn-leftHalf"><rect x="0"   y="0" width="120" height="240"/></clipPath>
+    <clipPath id="icn-rightHalf"><rect x="120" y="0" width="120" height="240"/></clipPath>
+    <radialGradient id="icn-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#08061a"/>
+      <stop offset="100%" stop-color="#040410"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background fill (omit if you want transparency) -->
+  <circle cx="120" cy="120" r="106" fill="url(#icn-bg)"/>
+
+  <g clip-path="url(#icn-seal)">
+    <!-- glow halos -->
+    <g clip-path="url(#icn-rightHalf)" stroke="#2255cc" stroke-width="5" fill="none" opacity="0.06">
+      <polyline points="144,32 142,62 133,80 131,96 133,112 154,140 172,164 174,186 168,202 160,214"/>
+    </g>
+    <g clip-path="url(#icn-leftHalf)" stroke="#4477ff" stroke-width="5" fill="none" opacity="0.06">
+      <polyline points="96,32 98,62 107,80 109,96 107,112 86,140 68,164 66,186 72,202 80,214"/>
+    </g>
+
+    <!-- right mesh -->
+    <g clip-path="url(#icn-rightHalf)" stroke="#4488ee" stroke-width="1.1" fill="none" opacity="0.9">
+      <path d="M120,22 Q134,22 148,23"/>
+      <path d="M120,38 Q135.8,38 151.5,39"/>
+      <path d="M120,53 Q134,53 148,54"/>
+      <path d="M120,69 Q127.9,69 135.8,70"/>
+      <path d="M120,82 Q127,82 134,83"/>
+      <path d="M120,95 Q127.9,95 135.8,96"/>
+      <path d="M120,110 Q137.5,110 155,111"/>
+      <path d="M120,129 Q148,129 176,130"/>
+      <path d="M120,149 Q155,149 190,150"/>
+      <path d="M120,168 Q155.9,168 191.8,169"/>
+      <path d="M120,186 Q153.2,186 186.5,187"/>
+      <path d="M120,201 Q145.4,201 170.8,202"/>
+      <path d="M120,214 Q141,214 162,215"/>
+      <path d="M120,222 Q137.5,222 155,223"/>
+      <polyline points="148,23 151.5,39 148,54 135.8,70 134,83 135.8,96 155,111 176,130 190,150 191.8,169 186.5,187 170.8,202 162,215 155,223"/>
+      <polyline points="138.2,22 140.5,38 138.2,53 130.3,69 129.1,82 130.3,95 142.8,110 156.4,129 165.5,149 166.7,168 163.2,186 153,201 147.3,214 142.8,222"/>
+      <polyline points="129.8,22 131,38 129.8,53 125.5,69 124.9,82 125.5,95 132.2,110 139.6,129 144.5,149 145.1,168 143.3,186 137.8,201 134.7,214 132.2,222"/>
+      <line x1="148" y1="23" x2="151.5" y2="39"/>
+      <line x1="151.5" y1="39" x2="148" y2="54"/>
+      <line x1="148" y1="54" x2="135.8" y2="70"/>
+      <line x1="135.8" y1="70" x2="134" y2="83"/>
+      <line x1="134" y1="83" x2="135.8" y2="96"/>
+      <line x1="135.8" y1="96" x2="155" y2="111"/>
+      <line x1="155" y1="111" x2="176" y2="130"/>
+      <line x1="176" y1="130" x2="190" y2="150"/>
+      <line x1="190" y1="150" x2="191.8" y2="169"/>
+      <line x1="191.8" y1="169" x2="186.5" y2="187"/>
+      <line x1="186.5" y1="187" x2="170.8" y2="202"/>
+      <line x1="170.8" y1="202" x2="162" y2="215"/>
+      <line x1="162" y1="215" x2="155" y2="223"/>
+    </g>
+
+    <!-- left mesh -->
+    <g clip-path="url(#icn-leftHalf)" stroke="#88bbff" stroke-width="1.1" fill="none" opacity="0.9">
+      <path d="M120,22 Q106,22 92,23"/>
+      <path d="M120,38 Q104.2,38 88.5,39"/>
+      <path d="M120,53 Q106,53 92,54"/>
+      <path d="M120,69 Q112.1,69 104.2,70"/>
+      <path d="M120,82 Q113,82 106,83"/>
+      <path d="M120,95 Q112.1,95 104.2,96"/>
+      <path d="M120,110 Q102.5,110 85,111"/>
+      <path d="M120,129 Q92,129 64,130"/>
+      <path d="M120,149 Q85,149 50,150"/>
+      <path d="M120,168 Q84.1,168 48.2,169"/>
+      <path d="M120,186 Q86.8,186 53.5,187"/>
+      <path d="M120,201 Q94.6,201 69.2,202"/>
+      <path d="M120,214 Q99,214 78,215"/>
+      <path d="M120,222 Q102.5,222 85,223"/>
+      <polyline points="92,23 88.5,39 92,54 104.2,70 106,83 104.2,96 85,111 64,130 50,150 48.2,169 53.5,187 69.2,202 78,215 85,223"/>
+      <polyline points="101.8,22 99.5,38 101.8,53 109.7,69 110.9,82 109.7,95 97.2,110 83.6,129 74.5,149 73.3,168 76.8,186 87,201 92.7,214 97.2,222"/>
+      <polyline points="110.2,22 109,38 110.2,53 114.5,69 115.1,82 114.5,95 107.8,110 100.4,129 95.5,149 94.9,168 96.7,186 102.2,201 105.3,214 107.8,222"/>
+      <line x1="92" y1="23" x2="88.5" y2="39"/>
+      <line x1="88.5" y1="39" x2="92" y2="54"/>
+      <line x1="92" y1="54" x2="104.2" y2="70"/>
+      <line x1="104.2" y1="70" x2="106" y2="83"/>
+      <line x1="106" y1="83" x2="104.2" y2="96"/>
+      <line x1="104.2" y1="96" x2="85" y2="111"/>
+      <line x1="85" y1="111" x2="64" y2="130"/>
+      <line x1="64" y1="130" x2="50" y2="150"/>
+      <line x1="50" y1="150" x2="48.2" y2="169"/>
+      <line x1="48.2" y1="169" x2="53.5" y2="187"/>
+      <line x1="53.5" y1="187" x2="69.2" y2="202"/>
+      <line x1="69.2" y1="202" x2="78" y2="215"/>
+      <line x1="78" y1="215" x2="85" y2="223"/>
+    </g>
+
+    <!-- top/bottom ellipses -->
+    <ellipse cx="120" cy="22"  rx="28" ry="5.5" stroke="#aaccff" stroke-width="1.3" fill="none" opacity="0.8"/>
+    <ellipse cx="120" cy="222" rx="35" ry="6"   stroke="#aaccff" stroke-width="1.3" fill="none" opacity="0.8"/>
+
+    <!-- vertex highlights -->
+    <circle cx="120"   cy="22"  r="3.5" fill="#cce0ff" opacity="0.9"/>
+    <circle cx="134"   cy="82"  r="3"   fill="#aaccff" opacity="0.9"/>
+    <circle cx="106"   cy="82"  r="3"   fill="#aaccff" opacity="0.9"/>
+    <circle cx="191.8" cy="168" r="3.5" fill="#aaccff" opacity="0.9"/>
+    <circle cx="48.2"  cy="168" r="3.5" fill="#aaccff" opacity="0.9"/>
+    <circle cx="120"   cy="222" r="3.5" fill="#cce0ff" opacity="0.9"/>
+
+    <!-- parting plane -->
+    <line x1="120" y1="8" x2="120" y2="234" stroke="#cc6622" stroke-width="8" opacity="0.07"/>
+    <line x1="120" y1="8" x2="120" y2="234" stroke="#cc6622" stroke-width="2.2" stroke-dasharray="7 4"/>
+
+    <!-- registration keys on parting plane -->
+    <rect x="115" y="63"  width="10" height="8" rx="2" fill="#cc6622"/>
+    <rect x="115" y="120" width="10" height="8" rx="2" fill="#cc6622"/>
+  </g>
+
+  <!-- seal rings -->
+  <circle cx="120" cy="120" r="106" stroke="#2244aa" stroke-width="1.8" fill="none"/>
+  <circle cx="120" cy="120" r="113" stroke="#0e1830" stroke-width="0.8" fill="none"/>
+
+  <!-- cardinal registration keys -->
+  <rect x="117" y="8"   width="7" height="12" rx="2" fill="#2244aa"/>
+  <rect x="117" y="224" width="7" height="12" rx="2" fill="#2244aa"/>
+  <rect x="8"   y="117" width="12" height="7" rx="2" fill="#2244aa"/>
+  <rect x="224" y="117" width="12" height="7" rx="2" fill="#2244aa"/>
+  </g>
+
+  <!-- wordmark + subtitle. Subtitle baseline is 65 px below wordmark
+       baseline so the wordmark's "p" descender (~27 px at 110 px Plex
+       Medium) clears the subtitle's cap top by ~20 px. -->
+  <text x="300" y="165"
+        font-family="IBM Plex Sans, system-ui, sans-serif"
+        font-weight="500"
+        font-size="110"
+        fill="#e8e8ea"
+        dominant-baseline="alphabetic">slipcaster</text>
+  <text x="304" y="230"
+        font-family="IBM Plex Sans, system-ui, sans-serif"
+        font-weight="500"
+        font-size="26"
+        fill="#888888"
+        dominant-baseline="alphabetic">plaster from polygons</text>
+</svg>
